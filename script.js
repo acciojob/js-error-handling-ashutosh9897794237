@@ -38,10 +38,4 @@ function evalString(str) {
 }
 
 
-try {
-  const result = evalString('1 + 2 * 3 - 4');
-  console.log(result); // should output: 3
-} catch (error) {
-  console.error(error.message);
-}
 
